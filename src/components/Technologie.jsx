@@ -3,7 +3,7 @@ import { RiAngularjsFill } from "react-icons/ri";
 import { FaVuejs } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariant = (duration) => ({
   initial: { y: -10 },
