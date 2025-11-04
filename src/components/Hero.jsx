@@ -24,9 +24,11 @@ const Hero = () => {
               Développeur FullStack
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              Je suis développeur avec une passion pour la creation
-              d'expériences web fluide. J'aime relever des défis complexes et
-              fournir des solutions numériques impactantes.
+              Motivé à mettre en pratique mes compétences, je suis prêt à
+              contribuer éfficacement au développement et optimisation des
+              solutions téchniques. Je privilègie la collaboration,
+              l’apprentissage continu et un travail de qualité pour garantir la
+              performance des systèmes et projets auquels je participe.
             </p>
           </div>
         </div>
