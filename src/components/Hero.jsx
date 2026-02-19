@@ -1,4 +1,4 @@
-import myHead from "../assets/myHead.jpg";
+import myHead from "../assets/myHead.png";
 import download from "../Document/CV-Santatriniaina Sarobidy RANDRIAMBOLOLONA.pdf";
 import React from "react";
 
@@ -35,7 +35,7 @@ const Hero = () => {
         <div className="w-full flex flex-col items-center justify-center lg:w-1/2 lg:p-8">
           <div className="flex justify-center p-2">
             <img
-              className="rounded-[50%] w-[250px] h-[250px]"
+              className="rounded-[100%] w-[250px] h-[370px]"
               src={myHead}
               alt="alt"
             />

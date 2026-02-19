@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { RiAngularjsFill } from "react-icons/ri";
-import { FaVuejs } from "react-icons/fa6";
+import { FaNodeJs, FaVuejs } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
@@ -48,6 +48,14 @@ const Technologie = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaVuejs className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariant(2.5)}
