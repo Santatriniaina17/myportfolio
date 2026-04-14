@@ -1,6 +1,6 @@
 import project1 from "../assets/face_reco.jpg";
 import project2 from "../assets/gestion_de _projet.jpg";
-import project3 from "../assets/portfolio.jpg";
+import project3 from "../assets/icon.svg";
 import project0 from "../assets/Mi_trade.png";
 
 export const PROJECTS = [
@@ -10,6 +10,7 @@ export const PROJECTS = [
     description:
       "Une applicatoin web basé sur les model de prédiction de prix et de tendance, plutot orienté Analyse de Données",
     technologies: ["Python", "scss", "Angular", "Django", "Posgresql"],
+    link: "https://misera-depl.vercel.app/",
   },
   {
     title: "Institute Traking",
