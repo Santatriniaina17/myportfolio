@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { RiAngularjsFill } from "react-icons/ri";
 import { FaNodeJs, FaVuejs } from "react-icons/fa6";
-import { SiMysql } from "react-icons/si";
+import { SiDart, SiFlutter, SiMysql } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
 import { SiSpring } from "react-icons/si";
@@ -56,6 +56,22 @@ const Technologie = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiFlutter className="text-7xl text-blue-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiDart className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
           variants={iconVariant(2.5)}
