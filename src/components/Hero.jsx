@@ -1,5 +1,5 @@
 import myHead from "../assets/myHead.png";
-import download from "../Document/CV-Santatriniaina Sarobidy RANDRIAMBOLOLONA.pdf";
+import download from "../Document/CV.pdf";
 import React from "react";
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const Hero = () => {
     const fileUrl = { download };
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "CV-Santatriniaina Sarobidy RANDRIAMBOLOLONA.pdf";
+    link.download = "CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
